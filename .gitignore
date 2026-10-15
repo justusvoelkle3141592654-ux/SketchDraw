@@ -1,0 +1,12 @@
+node_modules/
+dist/
+dist-electron/
+release/
+test-results/
+playwright-report/
+coverage/
+*.log
+.DS_Store
+# Reference screenshots of third-party software: local only, never committed
+reference/*
+!reference/README.md
