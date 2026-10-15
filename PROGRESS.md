@@ -44,9 +44,11 @@ Der E2E-Test deckt ab: neues Dokument → Strich → neue Ebene (Multiplizieren)
 Speichern (`.cforge` wird gelesen und geprüft) → Tab schließen → Öffnen → PNG-Export; die exportierten
 Pixel werden gegen die Referenzformel der Füllmethode geprüft.
 
-Nicht geprüft: Start und Bedienung der `.exe` auf echtem Windows 11, Stift-/Touch-Hardware,
-Windows-Skalierung 125/150/200 %. Der GitHub-Actions-Workflow führt Tests und Paketierung auf
-`windows-latest` aus.
+Windows (GitHub Actions, `windows-latest`, Lauf 38708590952): Lint, Format-Prüfung, Unit-Tests, Build,
+E2E-Smoke-Test und Paketierung erfolgreich; Installer und portable `.exe` als Artefakt `canvas-forge-windows`.
+
+Nicht geprüft: Bedienung der installierten `.exe` von Hand auf Windows 11, Stift-/Touch-Hardware,
+Windows-Skalierung 125/150/200 %.
 
 ## Feature-Matrix
 
